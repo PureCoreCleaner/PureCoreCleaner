@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans TC", sans-serif;
+  background: #666;
+  color: #fff;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: #fff;
+  color: #000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.menu a {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+  color: #333;
+}
+
+.notice {
+  padding: 30px;
+}
+
+.notice-title {
+  writing-mode: vertical-rl;
+  float: left;
+  margin-right: 30px;
+  font-size: 24px;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.plan {
+  width: 30%;
+  text-align: center;
+}
+
+.plan img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.price {
+  color: #ff4444;
+}
+
+.footer {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
